@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("병역이행 안내 조회")
+st.title("테스트")
 
 st.write("이름과 번호를 입력하면 안내 그룹을 확인할 수 있습니다.")
 
