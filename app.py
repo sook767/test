@@ -42,7 +42,7 @@ if st.button("조회"):
         st.warning("이름과 번호를 모두 입력하세요.")
 
     elif len(name.strip()) != 3:
-        st.warning("이름은 3글자로 입력하세요.")
+        st.warning("이름은 3글자만 입력하세요.")
 
     elif not number.strip().isdigit():
         st.warning("번호는 숫자만 입력하세요.")
@@ -53,7 +53,7 @@ if st.button("조회"):
         if key in group_data:
             result = group_data[key]
 
-            st.success("조회 완료")
+           #  st.success("조회 완료")
             st.write(f"👉 안내 그룹: {result['group']}")
             st.info(result["guide"])
 
